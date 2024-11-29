@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "libpxx-build",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libpxx-build-Debug-5f4f40b9cc64416dfd57.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/libpqxx-7.7.4"
+				},
+				{
+					"build" : "libpxx-build/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libpxx-build.src-Debug-cb73ec08e29a02119d47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/libpqxx-7.7.4/src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "libpxx-build/include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libpxx-build.include-Debug-21636816c03038b70db2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/libpqxx-7.7.4/include"
+				},
+				{
+					"build" : "libpxx-build/test",
+					"jsonFile" : "directory-libpxx-build.test-Debug-528eb3795d83a06c53eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/libpqxx-7.7.4/test",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SQLwork5",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "libpqxx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SQLwork5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SQLwork5-Debug-aac16ef1ee38c62f4137.json",
+					"name" : "SQLwork5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pqxx::@2bf705c0c1394f0509ca",
+					"jsonFile" : "target-pqxx-Debug-3640a28e3d81b9d38b6c.json",
+					"name" : "pqxx",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "runner::@eacc2dc2dd8157c69f70",
+					"jsonFile" : "target-runner-Debug-19c61f541371852df79a.json",
+					"name" : "runner",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/HomeWorks/SQL/5/SQL work5/SQLwork5/out/build/x64-Debug",
+		"source" : "D:/HomeWorks/SQL/5/SQL work5/SQLwork5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
